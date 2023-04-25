@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='zagolovok'>
     <header>
-      <img src={logo} alt='' className='logo'></img>
+    <Link to="/"><img src={logo} alt='' className='logo'></img></Link>
       <ul className='nav'>
         <li><Link to='/'>Главная</Link></li>
         <li><Link to='/contacts'>Контакты</Link></li>

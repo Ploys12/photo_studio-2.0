@@ -11,7 +11,7 @@ export class Employeers extends Component {
               <div>
               <span className='emp_name f'>Анастасия</span>
               <p className='emp_w f'>Фотограф</p>
-              <p className='em_n f'>+79993272165</p>
+              <p className='em_n f'>+79931952165</p>
               </div>
             </div>
             <div className='emp_item second'>
