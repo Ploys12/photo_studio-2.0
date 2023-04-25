@@ -352,7 +352,151 @@ button:hover{
     
 }
 
+
+.contacts_description{
+    margin-top: 50px auto;
+    width: 1240px;
+    height: 472px;
+    background-color: rgb(184, 180, 184);
+    border-radius: 100px;
+    transition: 1s ease-out;
+}
+
+.contacts_description:hover{
+    background: #f0e5cc;
+    position: relative;
+
+}
+
+.contacts_description:hover .desc_heart{
+    color: rgb(196, 78, 176);
+}
+
+.contacts_description_text{
+    width: 1110px;
+    font-size: 42px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 50px;
+    line-height: 80px;
+}
+
+.desc_heart{
+    margin-top: 350px;
+    margin-left: 555px;
+    font-size: 70px;
+    color: red;
+    transition: 1s ease all;
+}
+
+/* .desc_arrow{
+    font-size: 40px;
+    color: rgb(54, 54, 54);
+    margin-left: 100px;
+    margin-bottom: 17px;
+    
+} */
+
+
+.employeers{
+    width: 1200px;
+    height: 700px;
+    margin: 50px auto;
+    background: #f0e5cc;
+    border-radius: 100px;
+    position: relative;
+}
+
+.emp_items{
+    width: 1000px;
+    height: 530px;
+    background: #f0e5cc;
+    z-index: 1000;
+    margin-left: 100px;
+    position: absolute;
+    top: 85px;
+    display: flex;
+    
+}
+
+.emp_item{
+    width: 450px;
+    height: 530px;
+    background: rgb(184, 180, 184);
+    z-index: 1001;
+    margin-left: 50px;
+    transition: 1s ease-out all;
+    border-radius: 40px;
+}
+
+.emp_item:hover{
+    background: #f0e5cc;
+}
+
+.emp_item.first{
+    margin-left: 25px;
+}
+
+.img_em{
+    width: 200px;
+    border-radius: 70px;
+    margin-left: 125px;
+    margin-top: 20px;
+    transition: 1s all ease-out;
+    
+}
+
+.img_em:hover{
+    transform: scale(1.1);
+}
+
+.emp_name.f{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.emp_w.f{
+    margin-top: 20px;
+    margin-left: 27px;
+    font-size: 40px;
+}
+
+.emp_item.first div{
+    margin-top: 40px;
+
+}
+
+.emp_name.s{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.emp_w.s{
+    margin-top: 20px;
+    margin-left: 27px;
+    font-size: 40px;
+}
+
+.emp_item.second div{
+    margin-top: 40px;
+
+}
+
+
+.em_n{
+    margin-top: 20px;
+    margin-left: 26px;
+    font-size: 32px;
+}
+
+
+
 footer {
     margin-top: 100px;
     text-align: center;
+    
 }
