@@ -366,7 +366,7 @@ button:hover{
     height: 472px;
     background-color: rgb(184, 180, 184);
     border-radius: 100px;
-    transition: 1s ease-out;
+    transition: 1s ease-out all;
 }
 
 .contacts_description:hover{
@@ -377,6 +377,10 @@ button:hover{
 
 .contacts_description:hover .desc_heart{
     color: rgb(196, 78, 176);
+}
+
+.desc_heart{
+    transition: 1s ease-out all;
 }
 
 .contacts_description_text{
