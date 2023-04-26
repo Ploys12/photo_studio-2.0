@@ -5,6 +5,9 @@ import third_holl from '../img/third_holl.jpg'
 import first_employee from '../img/first_employee.jpg'
 import second_employee from '../img/photograph_two.jpg'
 import third_employee from '../img/third_photograph.jpg'
+import first_suit from '../img/suit_first.jpg'
+import second_suit from '../img/suit_second.jpeg'
+import third_suit from '../img/suit_third.jpg'
 export class Lease extends Component {
   render() {
     return (
@@ -49,9 +52,21 @@ export class Lease extends Component {
         </div>
         <span className='suit_inscription'>Аренда костюмов</span>
         <div className='suite_lease'>
-          <div className='suit first'></div>
-          <div className='suit second'></div>
-          <div className='suit third'></div>
+          <div className='suit first'>
+            <img className='holl_img first' src={first_suit}></img>
+            <p className='holl_location'>Костюмы "Рыжики"</p>
+            <p className='holl_price'>от 600₽/час</p>
+          </div>
+          <div className='suit second'>
+            <img className='holl_img first' src={second_suit}></img>
+            <p className='holl_location'>Костюмы свадебные</p>
+            <p className='holl_price'>от 1200₽/час</p>
+          </div>
+          <div className='suit third'>
+            <img className='holl_img first' src={third_suit}></img>
+            <p className='holl_location'>Костюмы "Санты"</p>
+            <p className='holl_price'>1500₽/час</p>
+          </div>
         </div>
       </div>
     )

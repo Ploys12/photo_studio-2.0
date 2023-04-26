@@ -495,7 +495,7 @@ button:hover{
 
 .location_lease{
     width: 1200px;
-    height: 2110px;
+    height: 2310px;
     margin: 50px auto;
     background: #f0e5cc;
     position: relative;
@@ -515,6 +515,8 @@ button:hover{
 
     
 }
+
+
 
 .photo_lease{
     height: 570px;
@@ -536,6 +538,13 @@ button:hover{
 /* #f0e5cc */
 
 .holl {
+    width: 370px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-right: 0.05px dotted black;
+}
+
+.suit {
     width: 370px;
     margin-left: 30px;
     margin-top: 30px;
@@ -565,7 +574,7 @@ button:hover{
 
 .photo_inscription{
     font-size: 45px;
-    margin-top: 75px;
+    margin-top: 55px;
 
     margin-left: 410px;
     position: absolute;
@@ -575,13 +584,24 @@ button:hover{
     border-right: none;
 }
 
+.photo.third{
+    border-right: none;
+}
+
+.suit.third{
+    border-right: none;
+}
+
 .suite_lease{
     height: 570px;
-    margin-top: 175px;
-    background: rgb(255, 255, 255);
-    z-index: 1004;
+    display: flex;
+    justify-content: space-evenly;
+    background: #f0e5cc;
+    z-index: 1003;
     width: 100%;
     border-radius: 3%;
+    margin-top: 250px ;
+
 }
 
 
@@ -600,7 +620,7 @@ button:hover{
 
 .suit_inscription{
     font-size: 45px;
-    margin-top: 75px;
+    margin-top: 142px;
 
     margin-left: 410px;
     position: absolute;
@@ -608,12 +628,18 @@ button:hover{
 
 .holl_img{
     width: 330px;
+    
     transition: all 1s ease;
     border-radius: 2%;
 }
 
 .holl_img:hover{
     transform: scale(1.08);
+}
+
+.suit .holl_img{
+    height: 330px;
+    width: 330px;
 }
 
 footer {
