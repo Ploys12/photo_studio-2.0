@@ -1,5 +1,3 @@
-
-
 import React, { Component } from 'react'
 import Presentation from '../Homepage_Components/Presentation'
 import Our_Job from '../Homepage_Components/Our_Job'

@@ -493,10 +493,133 @@ button:hover{
     font-size: 32px;
 }
 
+.location_lease{
+    width: 1200px;
+    height: 2110px;
+    margin: 50px auto;
+    background: #f0e5cc;
+    position: relative;
+    
+}
 
+.holl_lease{
+    height: 570px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #f0e5cc;
+    z-index: 1003;
+    width: 100%;
+    border-radius: 3%;
+    margin-top: 50px;
+
+
+    
+}
+
+.photo_lease{
+    height: 570px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #f0e5cc;
+    z-index: 1003;
+    width: 100%;
+    border-radius: 3%;
+    margin-top: 50px;
+
+}
+
+.holl_img.third.emp{
+    height: 220px;
+    width: 333px;
+}
+
+/* #f0e5cc */
+
+.holl {
+    width: 370px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-right: 0.05px dotted black;
+}
+
+.photo {
+    width: 370px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-right: 0.05px dotted black;
+}
+
+.holl_inscription{
+    font-size: 45px;
+    margin-left: 450px;
+}
+
+.photo_lease{
+    height: 570px;
+    margin-top: 175px;
+    background: #f0e5cc;
+    z-index: 1004;
+    width: 100%;
+    border-radius: 3%;
+}
+
+.photo_inscription{
+    font-size: 45px;
+    margin-top: 75px;
+
+    margin-left: 410px;
+    position: absolute;
+}
+
+.holl.third{
+    border-right: none;
+}
+
+.suite_lease{
+    height: 570px;
+    margin-top: 175px;
+    background: rgb(255, 255, 255);
+    z-index: 1004;
+    width: 100%;
+    border-radius: 3%;
+}
+
+
+.holl_location{
+    margin-top: 30px;
+    font-size: 29px;
+}
+
+
+.holl_price{
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.suit_inscription{
+    font-size: 45px;
+    margin-top: 75px;
+
+    margin-left: 410px;
+    position: absolute;
+}
+
+.holl_img{
+    width: 330px;
+    transition: all 1s ease;
+    border-radius: 2%;
+}
+
+.holl_img:hover{
+    transform: scale(1.08);
+}
 
 footer {
     margin-top: 100px;
     text-align: center;
     
 }
+
+/* #f0e5cc */
