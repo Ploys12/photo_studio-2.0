@@ -8,10 +8,36 @@ import third_employee from '../img/third_photograph.jpg'
 import first_suit from '../img/suit_first.jpg'
 import second_suit from '../img/suit_second.jpeg'
 import third_suit from '../img/suit_third.jpg'
+
+
+
+
+
 export class Lease extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      
+      showForm: false
+    };
+  }
+
+
+  
+
+  toggleForm = () => {
+    this.setState({ showForm: !this.state.showForm });
+    
+    
+  }
+  
+    
+
   render() {
     return (
-        <div className='location_lease'>
+        <div className={`location_lease ${this.state.showForm && 'active'}`}>
+          
             <span className='holl_inscription'>Аренда зала</span>
         <div className='holl_lease'>
             
@@ -20,6 +46,8 @@ export class Lease extends Component {
             <img src={first_holl} className='holl_img first'></img>
             <p className='holl_location'>Фотозал "Любимый"</p>
             <p className='holl_price'>1500₽/час</p>
+            
+            
           </div>
           <div className='holl second'>
             <img src={second_holl} className='holl_img second'></img>
@@ -30,6 +58,7 @@ export class Lease extends Component {
             <img src={third_holl} className='holl_img third'></img>
             <p className='holl_location'>Фотозал "Феерия"</p>
             <p className='holl_price'>2900₽/час</p>
+            
           </div>
         </div>
         <span className='photo_inscription'>Услуги фотографа</span>
@@ -68,9 +97,35 @@ export class Lease extends Component {
             <p className='holl_price'>1500₽/час</p>
           </div>
         </div>
+        <button onClick={this.toggleForm} className='button_contact'>
+              Связаться
+            </button>
+            {this.state.showForm && (
+              <form>
+                <label>
+                  Имя:
+                  <br></br>
+                  <input type="text" />
+                </label>
+                <br></br>
+                <label>
+                  Почта:
+                  <br></br>
+                  <input type="email" />
+                </label>
+                <br></br>
+                <label>
+                  Телефон:
+                  <br></br>
+                  <input type="text" />
+                </label>
+                <button type="submit" className='send'>Отправить</button>
+              </form>
+            )}
       </div>
     )
   }
 }
+
 
 export default Lease

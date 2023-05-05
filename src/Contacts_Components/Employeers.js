@@ -2,7 +2,24 @@ import React, { Component } from 'react'
 import first_employee from '../img/first_employee.jpg'
 import second_employee from '../img/second_employee.jpg'
 export class Employeers extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      
+      showForm: false
+    };
+  }
+
+
+  
+
+  toggleForm = () => {
+    this.setState({ showForm: !this.state.showForm });
+    
+    
+  }
   render() {
+    
     return (
       <div className='employeers'>
         <div className='emp_items'>
@@ -23,6 +40,31 @@ export class Employeers extends Component {
               </div>
             </div>
         </div>
+        <button onClick={this.toggleForm} className='button_contact contacts'>
+              Связаться
+            </button>
+            {this.state.showForm && (
+              <form className='contact_form'>
+                <label>
+                  Имя:
+                  <br></br>
+                  <input type="text" />
+                </label>
+                <br></br>
+                <label>
+                  Почта:
+                  <br></br>
+                  <input type="email" />
+                </label>
+                <br></br>
+                <label>
+                  Телефон:
+                  <br></br>
+                  <input type="text" />
+                </label>
+                <button type="submit" className='send'>Отправить</button>
+              </form>
+            )}
 
       </div>
     )
