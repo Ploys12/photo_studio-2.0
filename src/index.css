@@ -742,7 +742,7 @@ button:hover{
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 190px;
     text-align: center;
     
 }
@@ -773,17 +773,19 @@ form{
     transform: translateX(0);
     left: 520px;
     bottom: -40px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .button_contact.contacts{
     top: 650px;
-    left: 400px;
+    left: 50px;
     z-index: 2000;
 }
 .contact_form{
     position: absolute;
-    left: 50px;
+    left: 490px;
+    bottom: -120px
+    
 }
 
 form input {
