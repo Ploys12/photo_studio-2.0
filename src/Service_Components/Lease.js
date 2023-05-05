@@ -93,7 +93,7 @@ export class Lease extends Component {
           </div>
           <div className='suit third'>
             <img className='holl_img first' src={third_suit}></img>
-            <p className='holl_location'>Костюмы "Санты"</p>
+            <p className='holl_location'>Костюмы "Санточки"</p>
             <p className='holl_price'>1500₽/час</p>
           </div>
         </div>
