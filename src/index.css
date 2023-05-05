@@ -764,27 +764,36 @@ footer {
     transition: background-color 0.2s ease-in-out;
     position: relative;
     top: 50px;
+    left: 450px;
 }
 
 form{
     position: absolute;
-    font-weight: 600;
+    font-weight: 800;
     z-index: 10000;
     transform: translateX(0);
-    left: 520px;
-    bottom: -40px;
+    left: 220px;
+    
+    bottom: -170px;
     color: rgb(255, 255, 255);
+    width: 900px;
+}
+
+form input{
+    padding: 10px;
+    margin-left: 27px;
+    font-size: 21px;
 }
 
 .button_contact.contacts{
     top: 650px;
-    left: 120px;
+    left: 420px;
     z-index: 2000;
 }
 .contact_form{
     position: absolute;
-    left: 490px;
-    bottom: -120px
+    /* left: 490px;
+    bottom: -120px */
     
 }
 
@@ -811,8 +820,8 @@ form input {
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     position: relative;
-    top: 50px;
-    right: 190px;
+    top: -2px;
+    right: -10px;
 }
 
 

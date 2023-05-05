@@ -41,26 +41,27 @@ export class Employeers extends Component {
             </div>
         </div>
         <button onClick={this.toggleForm} className='button_contact contacts'>
-              Связаться
+              Оставить заявку
             </button>
             {this.state.showForm && (
               <form className='contact_form'>
                 <label>
-                  Имя:
-                  <br></br>
-                  <input type="text" />
+                  
+                  
+                  <input type="text" placeholder='Имя'/>
                 </label>
-                <br></br>
+                
                 <label>
-                  Почта:
-                  <br></br>
-                  <input type="email" />
+                  
+                  
+                  
+                  <input type="email" placeholder='Почта'/>
                 </label>
-                <br></br>
+                
                 <label>
-                  Телефон:
-                  <br></br>
-                  <input type="text" />
+                  
+                  
+                  <input type="text" placeholder='+71234567890'/>
                 </label>
                 <button type="submit" className='send'>Отправить</button>
               </form>
