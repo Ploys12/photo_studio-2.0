@@ -144,6 +144,7 @@ ul.nav li:hover {
     width: 300px;
     font-size: 40px;
     font-weight: 600;
+    text-shadow: 3px 3px 2px #000;
 }
 
 
@@ -265,7 +266,7 @@ button:hover{
     opacity: 0.83;
     transition: 0.5s all ease;
     z-index: 1000;
-    
+    text-shadow: 2px 2px 2px #000;
 }
 
 
@@ -287,6 +288,7 @@ button:hover{
     position: absolute;
     bottom: 210px;
     left: 150px;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .feedback_div{
@@ -324,28 +326,25 @@ button:hover{
 }
 .item.first{
     position: absolute;
-    left: 749px;
+    left: 620px;
     top: 40px;
 }
 .item.second{
     position: absolute;
     top: 40px;
+    left: 150px;
 }
 .item.third{
     position: absolute;
     bottom: 50px;
-    left: 600px;
+    left: 620px;
 }
 .item.fourth{
     position: absolute;
     bottom: 50px;
-    left: 170px;
+    left: 150px;
 }
-.item.fourt{
-    position: absolute;
-    bottom: 660px;
-    left: 380px;
-}
+
 .item p.family_text{
     width: 150px;
     margin-left: 70px;
@@ -368,8 +367,9 @@ button:hover{
     margin-top: 15px;
     font-size: 22px;
     transition: all 1s ease-in;
-    
     font-weight: 500;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .main_nav{
@@ -387,7 +387,7 @@ button:hover{
     margin-top: 20px;
     opacity: 0.6;
     transition: all 1s ease;
-    
+    text-shadow: 1px 2px 1px #000000;
 }
 
 .main_nav h2:hover{
@@ -398,10 +398,10 @@ button:hover{
 
 .contacts_description{
     margin-top: 50px auto;
-    width: 1240px;
+    width: 1200px;
     height: 472px;
     background-color: rgb(184, 180, 184);
-    border-radius: 100px;
+    border-radius: 2%;
     transition: 1s ease-out all;
 }
 
@@ -430,6 +430,9 @@ button:hover{
 
 .exp_text{
     font-size: 25px;
+    position: relative;
+    top: 40px;
+    
 }
 
 
@@ -481,13 +484,17 @@ button:hover{
     transition: 1s ease-out all;
     border-radius: 3%;
 }
-
+.emp_item.first{
+    position: absolute;
+    margin-left: 5px;
+    
+}
+.emp_item.second{
+    position: absolute;
+    left    : 450px;
+}
 .emp_item:hover{
     background: #f0e5cc;
-}
-
-.emp_item.first{
-    margin-left: 25px;
 }
 
 .img_em{
@@ -762,7 +769,7 @@ button:hover{
 
 .exp_int{
     width: 100%;
-    height: 345px;
+    height: 310px;
     margin-top: 75px;
     background: rgb(184, 180, 184);
     z-index: 5000;
@@ -775,7 +782,7 @@ button:hover{
 }
 
 footer {
-    margin-top: 190px;
+    margin-top: 80px;
     text-align: center;
     
 }
@@ -824,11 +831,13 @@ form input{
     z-index: 2000;
 }
 .contact_form{
-    position: absolute;
-    /* left: 490px;
-    bottom: -120px */
-    
+    width: 850px;
+    top: 640px;
+    height: 65px;
+    left: 12%;
+    background-color: #474645;
 }
+
 
 form input {
     width: 180px;
@@ -839,7 +848,7 @@ form input {
 }
 .send{
     width: 120px;
-    height: 50px;
+    height: 40px;
     border-radius: 3px;
     display: inline-block;
     padding: 10px 20px;

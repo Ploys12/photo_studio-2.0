@@ -101,7 +101,7 @@ export class Lease extends Component {
               Оставить заявку
             </button>
             {this.state.showForm && (
-              <form>
+              <form className='service'>
                 <label>
                   
                   
