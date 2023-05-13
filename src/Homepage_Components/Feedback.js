@@ -38,7 +38,12 @@ export class Feedback extends Component {
                 <div className="item fourth">
                 <img src={this.props.fourth_family} alt={this.props.alt} className="family_image fourth"></img>
                 <p className="family_text">Семья Прошиных</p>
-                <p className="description">Благодаря тому, что фотостудия располагается рядом с море, нам сделали фотографии на пляже. Получилось очень красиво!</p>
+                <p className="description">Благодаря тому, что фотостудия располагается рядом с море, нам сделали фотографии на пляже. Получилось очень красиво!</p>       
+                </div>
+                <div className="item fourth">
+                <img src={this.props.fourth_family} alt={this.props.alt} className="family_image fourth"></img>
+                <p className="family_text">Семья Прошиных</p>
+                <p className="description">Благодаря тому, что фотостудия располагается рядом с море, нам сделали фотографии на пляже. Получилось очень красиво!</p>       
                 </div>
                 
             </div>

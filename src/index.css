@@ -141,7 +141,7 @@ ul.nav li:hover {
     top: 250px;
     left: 95px;
     color: #fff;
-    width: 200px;
+    width: 300px;
     font-size: 40px;
     font-weight: 600;
 }
@@ -330,7 +330,6 @@ button:hover{
 .item.second{
     position: absolute;
     top: 40px;
-    
 }
 .item.third{
     position: absolute;
@@ -342,7 +341,11 @@ button:hover{
     bottom: 50px;
     left: 170px;
 }
-
+.item.fourt{
+    position: absolute;
+    bottom: 660px;
+    left: 380px;
+}
 .item p.family_text{
     width: 150px;
     margin-left: 70px;
